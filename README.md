@@ -1,4 +1,4 @@
-#health-buddy-widget
+# health-buddy-widget
 
 Copy the content of index.html into your project.
 Please make sure that `bot.js` and `chat.css`, as well as the image assets are being referenced correctly.
