@@ -2,18 +2,18 @@
 
 ## How to insert on your website
 
-1. Insert the link tag and script tag into the head of the page you want the chat to be inserted into:
+1. Insert the link tag and script tag into the head element of the page you want the chat to be inserted into:
     ```js
     <link href="assets/css/chat.css" rel="stylesheet" />
     <script src="assets/js/bot.js"></script>
     ```
-2. Check that the referenced css o that you have copied is the one in `assets/css/chat.css`.
+2. Check that the referenced css file that you have copied is the one in `assets/css/chat.css`.
 3. Check that the referenced javascript file that you have copied is the one in `assets/js/bot.js`
-4. Insert a div with the id `webchat` in the body of the page that the chat will be inserted into:
+4. Insert a div with the id `webchat` at the bottom of body element of the page that the chat will be inserted into:
     ```html
     <div id="webchat" />
     ```
-5. Insert this script tag at the bottom of the page's body section to load the widget:
+5. Insert this script tag below the div with the id `webcat` to load the widget:
     ```js
     <script>
         function isMobile() {
